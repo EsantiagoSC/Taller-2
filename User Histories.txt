@@ -1,0 +1,38 @@
+User Histories 
+
+  *1. Como usuario,quiero poder crear unha cuenta para acceder al sistema.*
+      Descripción: Los usuarios deben poder registrarse en el sistema proporcionando su información básica
+        Criterios de aceptación:
+        - El usuario debe ingresar su nombre, correo electrónico y contraseña.
+        - El sistema debe validar que el correo electrónico no este registrado previamente.
+        - Después del registro, el usuario debe poder iniciar sesión con sus credenciales.
+
+  *2. Como usuario, quiero poder iniciar sesión en el sistema.*
+      Descripción: Los usuarios registrados deben poder iniciar sesión en el sistema.
+        Criterios de aceptación:
+        - El usuario debe ingresar su correo electrónico y contraseña.
+        - El sistema debe verificar las credenciales y permitir el acceso si son válidas.
+
+  *3. Como usuario, quiero poder ver mi perfil y actualizar mis datos personales.*
+      Descripción: Los usuarios deben poder acceder a su perfil y modificar su información personal.
+        Criterios de aceptación:
+        - El usuario debe poder ver su nombre, correo electrónico y otros detalles.
+        - Debe haber una opción para editar información personal
+
+  *4. Como administrador, quiero poder gestionar las cuentas de usuario.
+      Descripción: El administrador debe poder ver la lista de usuarios registrados y realizar acciones como bloquear o eliminar cuentas.
+        Criterios de aceptación:
+        - El administrador debe poder ver una lista de usuarios.
+        - Debe haber opciones para bloquear o eliminar cuentas según sea necesario.
+
+  *5. Como usuario, quiero recibir notificaciones por correo electrónico.*
+      Descripción: El sistema debe enviar notificaciones por correo electrónico para confirmar el registro, reestablecer contraseñas, etc.
+        Criterios de aceptación:
+        - El sistema debe enviar correos electrónicos automaticamente en eventos específicos.
+        - Los usuarios deben poder configurar sus preferencias de notificación.
+
+  *6. Como usuario, quiero ver un historial de mis acciones en el sistema.*
+      Descripción: Los usuarios deben poder ver un registro de sus actividades como cambios en el perfil o búsquedas de vehículos.
+        Criterios de aceptación:
+        - El sistema debe registrar eventos relevantes.
+        - El usuario debe poder acceder a su historial de actividades.
