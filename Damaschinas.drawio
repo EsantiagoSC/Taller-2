@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2409" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2172" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -77,7 +77,7 @@
           <mxGeometry y="118" width="270" height="142" as="geometry" />
         </mxCell>
         <mxCell id="kfvMcEYBfHKcjL1v_Dra-34" value="PanelTablero" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-10" y="140" width="240" height="240" as="geometry" />
+          <mxGeometry x="-160" y="83" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="kfvMcEYBfHKcjL1v_Dra-35" value="&lt;div&gt;- tablero: Tablero&lt;/div&gt;&lt;div&gt;- tamañoCasilla: int&lt;/div&gt;&lt;div&gt;- filaSeleccionada: int&lt;/div&gt;&lt;div&gt;- columnaSeleccionada: int&lt;/div&gt;&lt;div&gt;- estrategiaActual: EstrategiaMovimiento&lt;/div&gt;&lt;div&gt;- estadoLabel: JLabel&lt;/div&gt;&lt;div&gt;- movimientosPosibles: List&amp;lt;Point&amp;gt;&lt;/div&gt;&lt;div&gt;- enSaltoMultiple: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-34">
           <mxGeometry y="26" width="240" height="124" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry y="158" width="240" height="82" as="geometry" />
         </mxCell>
         <mxCell id="kfvMcEYBfHKcjL1v_Dra-38" value="VentanaPrincipal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="430" width="160" height="86" as="geometry" />
+          <mxGeometry x="-140" y="373" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="kfvMcEYBfHKcjL1v_Dra-39" value="- tablero: Tablero" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-38">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -225,6 +225,18 @@
         </mxCell>
         <mxCell id="kfvMcEYBfHKcjL1v_Dra-112" value="&lt;div&gt;+ crearJugadores(): List&amp;lt;Jugador&amp;gt;&lt;/div&gt;&lt;div&gt;+ inicializarFichas(Tablero): void&lt;/div&gt;&lt;div&gt;+ getNumeroJugadores();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-111">
           <mxGeometry y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kfvMcEYBfHKcjL1v_Dra-120" value="SeleccionJugadoresDialog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="340" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kfvMcEYBfHKcjL1v_Dra-121" value="- estrategiaSeleccionada: EstrategiaJugadores" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-120">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kfvMcEYBfHKcjL1v_Dra-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-120">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kfvMcEYBfHKcjL1v_Dra-123" value="&lt;div&gt;+ SeleccionJugadoresDialog(JFrame)&lt;/div&gt;&lt;div&gt;+ getEstrategiaSeleccionada(): EstrategiaJugadores&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kfvMcEYBfHKcjL1v_Dra-120">
+          <mxGeometry y="60" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
